@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>starbucks</title>
+</head>
+
+<body>
+    <div class="circulo"> </div>
+
+    <img src="./imagem/logo.png" alt="logo" class="logo">
+    <div class="conteudo">
+        <div class="caixa-texto">
+            <h2>Não é apenas Café, é um  <span>starbucks</span> !!!</h2>
+            <p>Independente do seu gosto ou paladar, encontrará um café Starbucks® perfeito para você.</p>
+            <button>deixa o seu like</button>
+        </div>
+        <div class="imagens">
+            <img src="./imagem/img1.png" alt="copo" class="copo">
+        </div>
+    </div>
+
+<div class="menu">
+    <img src="./imagem/img-pequena1.png" class="pequenos verde">
+    <img src="./imagem/img-pequena2.png" class="pequenos amarelo">
+    <img src="./imagem/img-pequena3.png" class="pequenos rosa">
+</div>
+
+
+</body>
+<script>
+    let circulo =document.querySelector(".circulo")
+    let imgcopo = document.querySelector(".copo")
+    let verde =document.querySelector(".verde")
+    let amarelo =document.querySelector(".amarelo")
+    let rosa =document.querySelector(".rosa")
+
+        rosa.addEventListener("click", ()  => {
+        imgcopo.src = "./imagem/img3.png"  
+        circulo.style.background = "#d752d1"
+        })
+
+        verde.addEventListener("click", ()  => {
+        imgcopo.src = "./imagem/img1.png"  
+        circulo.style.background = "#017143"
+        })
+        
+        amarelo.addEventListener("click", ()  => {
+        imgcopo.src = "./imagem/img2.png"  
+        circulo.style.background = "#eb7495"
+        
+      }
+      )
+    
+    
+   
+
+
+                                                                                                    
+   
+
+
+
+</script>
+
+</html>
